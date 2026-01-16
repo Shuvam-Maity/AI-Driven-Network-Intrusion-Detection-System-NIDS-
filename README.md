@@ -29,3 +29,7 @@ The models were optimized for **Recall** to minimize the risk of undetected thre
 * **Deep Learning:** TensorFlow / Keras
 * **Data Analysis:** Pandas, NumPy
 * **Visualization:** Matplotlib, Seaborn
+
+
+## 📈 Analysis & Conclusion
+The XGBoost model was selected as the production candidate. While the Neural Network showed high generalization, XGBoost achieved a superior 99.95% Recall while remaining 10x faster to train than traditional ensemble methods. This efficiency makes it ideal for high-throughput, real-time network monitoring environments.
